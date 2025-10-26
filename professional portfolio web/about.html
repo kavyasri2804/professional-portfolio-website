@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>About - Portfolio Website</title>
+
+    <script>
+      // Check if the navigation type is a reload
+      if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
+        window.location.href = "/index.html";
+      }
+    </script>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">k<span>a</span>vya</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Home</a></li>
+
+            <li>
+              <a href="about.html" class="nav__link active-link">About</a>
+            </li>
+
+            <li><a href="services.html" class="nav__link">Services</a></li>
+
+            <li><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+
+            <li><a href="contact.html" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://x.com/" target="_blank" class="nav__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a
+            href="https://sg.linkedin.com/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="contact.html" class="nav__link-btn btn">Let's Chat</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              Hello! I'm Kavya which many people like to ask if its like the
+              food "caviar". A little about me is that I initially picked up
+              Computer Science in University without much knowledge about it but
+              ended up falling in love with it. Beyond jobscope, I also have
+              little hobbies that I enjoy such as gymming, muay thai and reading
+              which has even led me to become a certified personal trainer.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Skills</span
+              >
+              <span class="tabs__btn" data-target="#awards">Awards</span>
+              <span class="tabs__btn" data-target="#experience"
+                >Experience</span
+              >
+              <span class="tabs__btn" data-target="#education"
+                >Education & Other Certification</span
+              >
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>User experience design</span> - UI/UX
+                    <span
+                      >Good understanding of user experience and interface
+                      design principles</span
+                    >
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Programming Languages</span> - Proficiency
+                    <span>Python, Java, C++, Javascript</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Project Management</span> - Ability
+                    <span
+                      >Good at managing teams and working along time
+                      constraints</span
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="awards">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Google Code Jam</span> - Winner
+                    <span>2033-2034</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Github Stars</span> - Recognition & Profile Badge
+                    <span>2030-2031</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Topcoder Open</span> - Participation
+                    <span>2027-2028</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Sr. Software Developer</span> - Google
+                    <span>2029 - current</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Software developer</span> - Microsoft
+                    <span>2027 - 2029</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Front-end Engineer</span> - Shopee
+                    <span>2026 - 2027</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Business analyst certification</span> - CBAP
+                    <span>2030</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Certified personal trainer</span> - NCSF Singapore
+                    <span>2028</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>BSc (First-class Honours) in CS</span> - SIM UOL
+                    <span>2026</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">k<span>a</span>vya</a>
+
+        <div class="footer__socials">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://x.com/" target="_blank" class="footer__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a
+            href="https://sg.linkedin.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2034. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

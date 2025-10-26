@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Services - Portfolio Website</title>
+
+    <script>
+      // Check if the navigation type is a reload
+      if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
+        window.location.href = "/index.html";
+      }
+    </script>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">k<span>a</span>vya</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="index.html" class="nav__link">Home</a></li>
+
+            <li><a href="about.html" class="nav__link">About</a></li>
+
+            <li>
+              <a href="services.html" class="nav__link active-link">Services</a>
+            </li>
+
+            <li><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+
+            <li><a href="contact.html" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://x.com/" target="_blank" class="nav__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a
+            href="https://sg.linkedin.com/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="contact.html" class="nav__link-btn btn">Let's Chat</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Services I Provide</h2>
+        <p class="section__description">
+          These are some of the many tasks that i handle on a day-to-day basis
+          and i even provide these services as a side-business
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-rss-interface services__icon"></i>
+
+            <h3 class="services__title">Security Services</h3>
+            <p class="services__description">
+              - Software Security Audits: Assess the security of software to
+              identify vulnerabilities and recommend improvements. <br /><br />
+              - Secure Software Development: Build software with a focus on
+              security best practices to protect against threats <br /><br />
+              - Compliance & Regulation Support: Ensure software meets
+              industry-specific compliance standards and regulations.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+
+            <h3 class="services__title">Custom Software Devlopment</h3>
+            <p class="services__description">
+              - Custom Application: Develop bespoke software solutions tailored
+              to the specific needs of a business or individual. <br /><br />
+              - Web & Mobile Applications: Create web-based applications that
+              can be accessed through a browser and develop apps for mobile
+              platforms.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-users-alt services__icon"></i>
+
+            <h3 class="services__title">Training and Education</h3>
+            <p class="services__description">
+              - Software Training: Provide training sessions to educate users on
+              how to use new software effectively <br /><br />
+              - Technical Documentation: Write user manuals, technical guides
+              and documentation to help users understand.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-mobile-android services__icon"></i>
+
+            <h3 class="services__title">
+              User Experience & User Interface Design
+            </h3>
+            <p class="services__description">
+              - UI Design: Design the visual interface of software, including
+              layouts, color schemes, and interactive elements. <br /><br />
+              - UX Design: Ensure that the software provides a good user
+              experience, including usability testing and user research.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-apps services__icon"></i>
+
+            <h3 class="services__title">AI and Machine Learning Services</h3>
+            <p class="services__description">
+              - Machine Learning Models: Develop and deploy machine learning
+              models to solve specific problems, such as predictive analysis,
+              image recognition, or natural language processing.<br /><br />
+              - AI Integration: Integrate AI capabilities into existing software
+              to enhance functionality.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+
+            <h3 class="services__title">Software Maintenance & Support</h3>
+            <p class="services__description">
+              - Bug Fixing: Identify and debug errors in existing software
+              <br /><br />
+              - Software Updates: Provide updates to software to add new
+              features, improve performance or address security vulnerabilities.
+              <br /><br />
+              - Technical Support: Offer ongoing support to revolve issues and
+              assist users in effective usage.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">k<span>a</span>vya</a>
+
+        <div class="footer__socials">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="https://x.com/" target="_blank" class="footer__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a
+            href="https://sg.linkedin.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2034. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
